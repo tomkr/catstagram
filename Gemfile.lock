@@ -36,6 +36,8 @@ GEM
     better_errors (1.1.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
     builder (3.1.4)
     coderay (1.1.0)
     coffee-rails (4.0.1)
@@ -45,6 +47,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    debug_inspector (0.0.2)
     ember-data-source (0.14)
       ember-source
     ember-rails (0.14.0)
@@ -137,6 +140,7 @@ PLATFORMS
 
 DEPENDENCIES
   better_errors
+  binding_of_caller
   coffee-rails (~> 4.0.0)
   ember-rails
   ember-source
