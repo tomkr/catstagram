@@ -40,3 +40,4 @@ gem 'slim'
 
 gem 'ember-rails'
 gem 'ember-source'
+gem 'emblem-rails'
