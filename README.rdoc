@@ -1,0 +1,5 @@
+== Catstagram
+
+Catstagram is an awesome app to show pictures of cats.
+
+It's also a demo project for a Rails/Ember app for an Utrecht.rb talk by Tom Kruijsen.
