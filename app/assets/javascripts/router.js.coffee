@@ -1,5 +1,6 @@
 # For more information see: http://emberjs.com/guides/routing/
 
 Catstagram.Router.map ()->
-  @route 'cats', path: ''
+  @resource 'cats', path: '', ->
+    @route 'cat', path: ':cat_id'
 
