@@ -41,3 +41,9 @@ gem 'slim'
 gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
+
+group :test, :development do
+  gem "konacha"
+  gem "capybara"
+  gem "sinon-rails"
+end
