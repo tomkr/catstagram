@@ -1,2 +1,3 @@
-each pictures
-  img src=url
+.cats
+  each pictures
+    img src=url

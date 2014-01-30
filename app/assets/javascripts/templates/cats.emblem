@@ -1,7 +1,7 @@
-h1 Catstagram
+.l-menu
+  ul.menu = each cat in model
+    li.menu__item = link-to 'cats.cat' cat
+      = cat.name
 
-ul = each cat in model
-  li = link-to 'cats.cat' cat
-    = cat.name
-
-= outlet
+.l-content
+  = outlet
