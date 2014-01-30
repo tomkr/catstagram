@@ -40,7 +40,9 @@ gem 'slim'
 
 gem 'ember-rails'
 gem 'ember-source'
+gem "ember-data-source", "~> 1.0.0.beta.6"
 gem 'emblem-rails'
+
 
 group :test, :development do
   gem "konacha"

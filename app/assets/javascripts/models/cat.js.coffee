@@ -1,3 +1,3 @@
 Catstagram.Cat = DS.Model.extend
-  name: DS.attr('string')
-  pictures: DS.hasMany('Catstagram.Picture')
+  name: DS.attr()
+  pictures: DS.hasMany('picture')
