@@ -4,4 +4,6 @@ Catstagram::Application.routes.draw do
   scope '/api' do
     resources :cats
   end
+
+  get '/*cats', to: 'app#index'
 end

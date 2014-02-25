@@ -4,3 +4,5 @@ Catstagram.Router.map ()->
   @resource 'cats', path: '', ->
     @route 'cat', path: ':cat_id'
 
+Catstagram.Router.reopen
+  location: 'history'
