@@ -1,7 +1,7 @@
 # http://emberjs.com/guides/models/using-the-store/
 
 
-Catstagram.ApplicationAdapter = DS.RESTAdapter.extend
+Catstagram.ApplicationAdapter = DS.ActiveModelAdapter.extend
   namespace: 'api'
 
 Catstagram.Store = DS.Store.extend
